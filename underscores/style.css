@@ -35,13 +35,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /* start */
 /* https://material.io/ - Using the material design color palette */
 --primary-color: #3F51B5; /* Indigo 500 */
---primary-color-darkened-plus2: #303F9F; /* Indigo 700 */
---primary-color-darkened-plus3: #283593; /* Indigo 800 */
+--primary-color-darkened2: #303F9F; /* Indigo 700 */
+--primary-color-darkened3: #283593; /* Indigo 800 */
 
 --secondary-color: #E91E63; /* Pink 500 */
 
 --secondary-color-accent: #FF4081; /* Pink A200 */
---secondary-color-accent-decrement: #FF80AB; /* Pink A100 */
+--secondary-color-accent-lightened: #FF80AB; /* Pink A100 */
+--secondary-color-accent-darkened2: #C51162; /* Pink A700 */
 /* end */
 
 /* start */
