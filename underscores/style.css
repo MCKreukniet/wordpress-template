@@ -90,6 +90,11 @@ p {
 	max-width: var(--smallest-content-width);
 }
 
+a, a:visited, a:hover {
+	color: var(--secondary-color-accent-darkened2);
+	text-decoration: none;
+}
+
 /* .site-title = .primary-brand-text__title */
 .site-title {
 	color: var(--light-primary-text);
@@ -601,13 +606,13 @@ a {
 	color: royalblue;
 }
 
-a:visited {
+/* a:visited {
 	color: purple;
-}
+} */
 
-a:hover, a:focus, a:active {
+/* a:hover, a:focus, a:active {
 	color: midnightblue;
-}
+} */
 
 a:focus {
 	outline: thin dotted;
