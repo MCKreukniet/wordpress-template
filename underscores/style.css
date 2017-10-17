@@ -19,6 +19,94 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
+
+/* primary style - start */
+:root {
+/* 1sp == 1dp */
+--sp1: calc(1rem / 13);
+--sp2: calc(var(--sp1) * 2);
+--sp3: calc(var(--sp1) * 3);
+--sp4: calc(var(--sp1) * 4);
+--sp6: calc(var(--sp1) * 6);
+
+--smallest-content-width: 13rem;
+--default-content-width: 34rem;
+
+/* start */
+/* https://material.io/ - Using the material design color palette */
+--primary-color: #3F51B5; /* Indigo 500 */
+--primary-color-darkened-plus2: #303F9F; /* Indigo 700 */
+--primary-color-darkened-plus3: #283593; /* Indigo 800 */
+
+--secondary-color: #E91E63; /* Pink 500 */
+
+--secondary-color-accent: #FF4081; /* Pink A200 */
+--secondary-color-accent-minus1: #FF80AB; /* Pink A100 */
+/* end */
+
+/* start */
+/* https://material.io/ - Text and background colors */
+--dark-primary-text: rgba(0, 0, 0, 0.87);
+--dark-secondary-text: rgba(0, 0, 0, 0.54);
+
+--light-primary-text: rgba(255, 255, 255, 1);
+--light-secondary-text: rgba(255, 255, 255, 0.7);
+/* end */
+}
+
+html {
+	font-size: 112.5%; /* 100% = 16px; 112.5% = 18px */
+}
+
+body {
+	color: var(--dark-primary-text);
+
+	font-family: Arial, Helvetica, sans-serif; /* CSS Web Safe Font */
+	line-height: 1.618;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif; /* CSS Web Safe Font */
+	font-weight: bold;
+}
+
+h1 {
+	margin: 0;
+
+	line-height: 2rem;
+
+	padding-left: 1rem;
+	border-left: solid var(--secondary-color) var(--sp6);
+}
+
+h2 {
+	margin: 1rem 0 0 0;
+
+	font-size: 1.618rem;
+}
+
+p {
+	max-width: var(--smallest-content-width);
+}
+
+/* .site-title = .primary-brand-text__title */
+.site-title {
+	color: var(--light-primary-text);
+
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+/* .site-description = .primary-brand-text__tagline */
+.site-description {
+	display: none;
+
+	color: var(--light-primary-text);
+	padding-top: 0.309rem; /* line-heigth (1.618 - 1) / 2 */
+	line-height: 1rem;
+}
+/* primary style - end */
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -111,7 +199,7 @@ dfn {
 
 h1 {
 	font-size: 2em;
-	margin: 0.67em 0;
+	/* margin: 0.67em 0; */
 }
 
 mark {
@@ -264,11 +352,11 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
+	/* color: #404040; */
+	/* font-family: sans-serif; */
 	font-size: 16px;
 	font-size: 1rem;
-	line-height: 1.5;
+	/* line-height: 1.5; */
 }
 
 h1, h2, h3, h4, h5, h6 {
