@@ -98,6 +98,17 @@ a, a:visited, a:hover {
 	text-decoration: none;
 }
 
+/* .site-branding = .primary-brand */
+.site-branding {
+	display: flex;
+
+	margin: 1rem 0 1rem 0;
+
+	text-decoration: none;
+
+	align-items: flex-end;
+}
+
 .primary-brand-text {
 	display: flex;
 	flex-direction: column;
