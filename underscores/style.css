@@ -209,6 +209,45 @@ a, a:visited, a:hover {
 
 	align-items: center;
 }
+
+@media (min-width: 648px) { /* (34 + 2) x 18 = 648 */
+	p {
+		max-width: var(--default-content-width);
+	}
+
+	/* .nav-menu = .primary-menu__items */
+	.nav-menu {
+		display: flex;
+	}
+}
+
+@media (min-width: 1044px) { /* ((34 + 2) + (21 + 1)) x 18 = 1044; with screen padding */
+	/* .site-header = primary-header */
+	.site-header {
+		width: 56rem; /* (34 + 1) + 21; without screen padding */
+	}
+
+	/* .custom-logo = .primary-brand__logo */
+	.custom-logo {
+		height: 5rem;
+	}
+
+	/* .site-title = .primary-brand-text__title */
+	.site-title {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	/* .site-description = .primary-brand-text__tagline */
+	.site-description {
+		display: block;
+	}
+
+	/* .nav-menu = .primary-menu__items */
+	.nav-menu {
+		margin: 4rem 0 0 0; /* TODO */ /* only margin-top is not enough */
+	}
+  }
 /* primary style - end */
 
 /*--------------------------------------------------------------
