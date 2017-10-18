@@ -98,6 +98,12 @@ a, a:visited, a:hover {
 	text-decoration: none;
 }
 
+.primary-brand-text {
+	display: flex;
+	flex-direction: column;
+	margin: 0 1rem 0 1rem;
+}
+
 /* .site-title = .primary-brand-text__title */
 .site-title {
 	color: var(--light-primary-text);
