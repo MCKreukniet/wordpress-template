@@ -187,6 +187,26 @@ a, a:visited, a:hover {
 
 	text-decoration: none;
 }
+
+/* .current_page_item = .primary-menu__items__item--active - start */
+.current_page_item {
+	padding-top: var(--sp2);
+	border-bottom: solid var(--secondary-color-accent) var(--sp2);
+}
+
+.current_page_item > a {
+	color: var(--light-primary-text);
+}
+
+.nav-menu > li:not(.current_page_item) > a {
+	color: var(--light-secondary-text);
+}
+
+.nav-menu > li:not(.current_page_item) > a:hover {
+	padding-top: var(--sp2);
+	border-bottom: solid var(--secondary-color-accent-lightened) var(--sp2);
+}
+/* .current_page_item = .primary-menu__items__item--active - end */
 /* .nav-menu = .primary-menu__items - end */
 
 /* .site-content = .primary-content-container */
