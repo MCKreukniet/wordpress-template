@@ -102,6 +102,15 @@ a, a:visited, a:hover {
 	padding: 0 1rem 0 1rem;
 }
 
+/* .site-content = .primary-content-container and .site-footer = .primary-footer */
+.primary-header-wrapper, .site-content, .site-footer {
+	display: flex;
+
+	width: 100%;
+
+	justify-content: center;
+}
+
 .primary-header-wrapper {
 	position: relative;
 
