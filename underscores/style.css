@@ -109,6 +109,11 @@ a, a:visited, a:hover {
 	align-items: flex-end;
 }
 
+/* .custom-logo = .primary-brand__logo */
+.custom-logo {
+	height: 1rem;
+}
+
 .primary-brand-text {
 	display: flex;
 	flex-direction: column;
