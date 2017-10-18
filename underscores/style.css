@@ -98,6 +98,23 @@ a, a:visited, a:hover {
 	text-decoration: none;
 }
 
+.screen-x-padding {
+	padding: 0 1rem 0 1rem;
+}
+
+.primary-header-wrapper {
+	position: relative;
+
+	background-color: var(--primary-color-darkened2);
+	box-shadow: 0 var(--sp2) var(--sp4) 0 rgba(0, 0, 0, 0.4); /* TODO */
+}
+
+/* .site-header = primary-header */
+.site-header {
+	display: flex;
+	justify-content: space-between;
+}
+
 /* .site-branding = .primary-brand */
 .site-branding {
 	display: flex;
