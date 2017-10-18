@@ -148,6 +148,7 @@ a, a:visited, a:hover {
 
 /* .site-title = .primary-brand-text__title */
 .site-title {
+	margin: 0;
 	color: var(--light-primary-text);
 
 	font-size: 1rem;
@@ -159,9 +160,18 @@ a, a:visited, a:hover {
 	display: none;
 
 	color: var(--light-primary-text);
+	margin: 0;
 	padding-top: 0.309rem; /* line-heigth (1.618 - 1) / 2 */
 	line-height: 1rem;
 }
+
+/* .menu = .primary-menu */
+.menu {
+	height: 3rem;
+	align-self: stretch;
+}
+
+/* TODO: */
 
 /* .nav-menu = .primary-menu__items - start */
 .nav-menu {
