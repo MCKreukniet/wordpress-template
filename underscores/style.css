@@ -198,8 +198,6 @@ a, a:visited, a:hover {
 	background-color: var(--primary-color-darkened3);
 	box-shadow: 0px 0px var(--sp2) 0px rgba(0,0,0,0.4); /* TODO: inside */
 
-	font-family: Verdana, Geneva, sans-serif; /* CSS Web Safe Font */
-
 	align-items: center;
 }
 /* primary style - end */
