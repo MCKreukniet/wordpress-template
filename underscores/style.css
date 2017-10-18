@@ -179,6 +179,13 @@ a, a:visited, a:hover {
 	text-decoration: none;
 }
 /* .nav-menu = .primary-menu__items - end */
+
+/* .site-content = .primary-content-container */
+.site-content {
+	min-height: 34rem;
+
+	background-color: #fff;
+}
 /* primary style - end */
 
 /*--------------------------------------------------------------
