@@ -13,9 +13,12 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer  screen-x-padding">
 		<div class="site-info">
 		</div><!-- .site-info -->
+		<div>
+			&copy; <?php echo date("Y") . " "; bloginfo( 'name' ); ?>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
