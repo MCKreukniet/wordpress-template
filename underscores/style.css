@@ -34,6 +34,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 
 --font-size-smaller: 0.888888888889rem; /* (16 x 100) / 18 */
 
+--border-thinnest: 1px solid var(--grey); /* TODO: 1px */
+
 /* start */
 /* https://material.io/ - Using the material design color palette */
 --primary-color: #3F51B5; /* Indigo 500 */
