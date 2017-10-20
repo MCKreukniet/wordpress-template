@@ -32,7 +32,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 --smallest-content-width: 13rem;
 --default-content-width: 34rem;
 
---font-size-smaller: 88.8888888889%; /* (16 x 100) / 18 */
+--font-size-smaller: 0.888888888889rem; /* (16 x 100) / 18 */
 
 /* start */
 /* https://material.io/ - Using the material design color palette */
