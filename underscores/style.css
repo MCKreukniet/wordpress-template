@@ -216,6 +216,48 @@ a, a:visited, a:hover {
 	background-color: #fff;
 }
 
+/* .widget-area = .primary-content-aside */
+.widget-area {
+	display: none;
+	flex-direction: column;
+	width: 21rem;
+	padding: 2em 0 3em 0;
+	font-size: var(--font-size-smaller);
+}
+
+/* .widget = .aside-container - start */
+.widget {
+	padding-top: 1em;
+}
+
+.widget + .widget {
+	margin-top: 2em;
+}
+/* .widget = .aside-container - end */
+
+/* .widget-title = .aside-container__title */
+.widget-title {
+	margin: 0;
+	font-size: 1.618em;
+	line-height: 1em;
+}
+
+/* .widget = .aside-container -start */
+.widget > ul {
+	list-style: none;
+	line-height: 1em;
+	padding: 0;
+}
+
+.widget > ul > li {
+	padding: 1em;
+}
+
+.widget > ul > li + li {
+	border-top: var(--border-thinnest);
+}
+/* .widget = .aside-container - end */
+
 .search-field {
 	padding: 1em 1em 1em 3em;
 	width: 100%;
@@ -262,7 +304,12 @@ a, a:visited, a:hover {
 	.custom-logo, .site-description {
 		display: block;
 	}
-  }
+
+	/* .widget-area = .primary-content-aside */
+	.widget-area {
+		display: flex;
+	}
+}
 /* primary style - end */
 
 /*--------------------------------------------------------------
@@ -595,9 +642,9 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul, ol {
+/* ul, ol {
 	margin: 0 0 1.5em 3em;
-}
+} */
 
 ul {
 	list-style: disc;
@@ -934,10 +981,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-.widget {
-	margin: 0 0 1.5em;
+/* .widget {
+	margin: 0 0 1.5em; */
 	/* Make sure select elements fit in widgets. */
-}
+/* } */
 
 .widget select {
 	max-width: 100%;
