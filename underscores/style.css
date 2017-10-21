@@ -216,6 +216,19 @@ a, a:visited, a:hover {
 	background-color: #fff;
 }
 
+.search-field {
+	padding: 1em 1em 1em 3em;
+	width: 100%;
+	font-size: var(--font-size-smaller);
+	border: var(--border-thinnest);
+	color: var(--dark-primary-text);
+}
+
+/* .search-submit = .hidden-button */
+.search-submit {
+	display: none;
+}
+
 /* .site-footer = .primary-footer */
 .site-footer {
 	flex-direction: column;
@@ -664,7 +677,7 @@ input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
-input[type="search"],
+/* input[type="search"], */
 input[type="number"],
 input[type="tel"],
 input[type="range"],
