@@ -225,7 +225,7 @@ a, a:visited, a:hover {
 	display: flex;
 	flex-direction: column;
 	width: 13rem;
-	padding: 2em 0 3em 0;
+	padding-top: 2em;
 	font-size: var(--font-size-smaller);
 }
 
