@@ -301,6 +301,11 @@ a, a:visited, a:hover {
 		width: var(--default-content-width);
 	}
 
+	/* .site-header = primary-header, .site-main = .primary-content */
+	.site-header, .site-main {
+		width: 34rem;
+	}
+
 	/* .nav-menu = .primary-menu__items */
 	.nav-menu {
 		display: flex;
@@ -310,6 +315,11 @@ a, a:visited, a:hover {
 	.site-content {
 		align-items: flex-start;
 		flex-direction: row;
+	}
+
+	/* .entry-header = .content-header */
+	.entry-header {
+		padding-top: 3rem;
 	}
 
 	/* .widget-area = .primary-content-aside */
@@ -327,6 +337,28 @@ a, a:visited, a:hover {
 	/* .custom-logo = .primary-brand__logo and .site-description = .primary-brand__tagline */
 	.custom-logo, .site-description {
 		display: block;
+	}
+
+	/* .site-main = .primary-content */
+	.site-main {
+		margin-right: 1rem;
+	}
+
+	/* .entry-header = .content-header */
+	.entry-header {
+		padding-top: 5rem;
+	}
+}
+
+@media (min-width: 1116px) { /* ((34 + 6) + (21 + 1)) x 18 = 1116; with screen padding */
+	/* .site-header = primary-header */
+	.site-header {
+		width: 60rem; /* (34 + 5) + 21; without screen padding */
+	}
+
+	/* .site-main = .primary-content */
+	.site-main {
+		margin-right: 5rem;
 	}
 }
 /* primary style - end */
