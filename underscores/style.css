@@ -217,6 +217,18 @@ a, a:visited, a:hover {
 	background-color: #fff;
 }
 
+/* .entry-header = .content-header */
+.entry-header {
+	padding-top: 2rem;
+}
+
+/* .entry-date, .published, .updated = .content-header__date */
+.entry-date, .published, .updated {
+	margin: 1rem 0 0 0;
+	line-height: 1rem;
+	color: var(--dark-secondary-text);
+}
+
 /* .widget-area = .primary-content-aside */
 .widget-area {
 	display: flex;
