@@ -29,9 +29,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 --sp4: calc(var(--sp1) * 4);
 --sp6: calc(var(--sp1) * 6);
 
---smallest-content-width: 13rem;
+--smallest-content-width: 284px; /* 320 - (2 x 18) = 284 */
 --default-content-width: 34rem;
 
+--font-size-smallest: 0.777777777778rem; /* (14 x 100) / 18 */
 --font-size-smaller: 0.888888888889rem; /* (16 x 100) / 18 */
 
 --border-thinnest: 1px solid var(--grey); /* TODO: 1px */
@@ -95,10 +96,6 @@ h2 {
 	font-size: 1.618rem;
 }
 
-p {
-	width: var(--smallest-content-width);
-}
-
 a, a:visited, a:hover {
 	color: var(--secondary-color-accent-darkened2);
 	text-decoration: none;
@@ -117,6 +114,11 @@ a, a:visited, a:hover {
 	justify-content: center;
 }
 
+/* .site-header = primary-header and .site-main = .primary-content */
+.site-header, .site-main {
+	width: var(--smallest-content-width);
+}
+
 .primary-header-wrapper {
 	position: relative;
 
@@ -127,8 +129,9 @@ a, a:visited, a:hover {
 /* .site-header = primary-header */
 .site-header {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
-	font-size: var(--font-size-smaller);
+	font-size: var(--font-size-smallest);
 }
 
 /* .site-branding = .primary-brand */
@@ -170,11 +173,9 @@ a, a:visited, a:hover {
 	align-items: flex-end;
 }
 
-/* TODO: */
-
 /* .nav-menu = .primary-menu__items - start */
 .nav-menu {
-	display: none;
+	display: flex;
 	height: 3em;
 	padding: 0;
 	margin: 0;
@@ -306,9 +307,10 @@ a, a:visited, a:hover {
 		width: 34rem;
 	}
 
-	/* .nav-menu = .primary-menu__items */
-	.nav-menu {
-		display: flex;
+	/* .site-header = primary-header */
+	.site-header {
+		flex-direction: row;
+		font-size: var(--font-size-smaller);
 	}
 
 	/* .site-content = .primary-content-container */
