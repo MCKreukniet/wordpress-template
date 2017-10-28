@@ -297,6 +297,15 @@ a, a:visited, a:hover {
 	align-items: center;
 }
 
+/* EXTRA for theme only */
+.custom-logo {
+	width: auto;
+}
+
+.site-title > a {
+	color: inherit;
+}
+
 @media (min-width: 648px) { /* (34 + 2) x 18 = 648 */
 	p {
 		width: var(--default-content-width);
