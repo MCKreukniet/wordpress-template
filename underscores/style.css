@@ -297,7 +297,14 @@ a, a:visited, a:hover {
 	align-items: center;
 }
 
-/* EXTRA for theme only */
+/* EXTRA for theme only - start */
+.site-title {
+	padding: 0;
+	border: none;
+	font-family: inherit;
+	font-weight: normal;
+}
+
 .custom-logo {
 	width: auto;
 }
@@ -305,6 +312,19 @@ a, a:visited, a:hover {
 .site-title > a {
 	color: inherit;
 }
+
+.hentry {
+	margin: 0 0 2rem 0;
+}
+
+.post + .post {
+	border-top: var(--border-thinnest);
+}
+
+.post + .post > .entry-header {
+	padding-top: 2rem;
+}
+/* EXTRA for theme only - end */
 
 @media (min-width: 648px) { /* (34 + 2) x 18 = 648 */
 	p {
@@ -1062,9 +1082,9 @@ a:hover, a:active {
 	display: block;
 }
 
-.hentry {
+/* .hentry {
 	margin: 0 0 1.5em;
-}
+} */
 
 .updated:not(.published) {
 	display: none;
