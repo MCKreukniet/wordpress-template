@@ -324,6 +324,15 @@ a, a:visited, a:hover {
 .post + .post > .entry-header {
 	padding-top: 2rem;
 }
+
+.entry-footer > span + span {
+	margin-left: 2rem;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url {
+	display: flex;
+	flex-direction: column;
+}
 /* EXTRA for theme only - end */
 
 @media (min-width: 648px) { /* (34 + 2) x 18 = 648 */
@@ -650,9 +659,9 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
-p {
+/* p {
 	margin-bottom: 1.5em;
-}
+} */
 
 dfn, cite, em, i {
 	font-style: italic;
@@ -1091,7 +1100,7 @@ a:hover, a:active {
 }
 
 .page-content,
-.entry-content,
+/* .entry-content, */
 .entry-summary {
 	margin: 1.5em 0 0;
 }
