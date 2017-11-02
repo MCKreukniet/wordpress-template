@@ -347,6 +347,18 @@ h2.entry-title {
 	margin-left: 2rem;
 }
 
+.site-main .post-navigation {
+	margin-bottom: 2rem;
+	overflow: hidden;
+}
+
+.comment-reply-title {
+	padding-left: 1rem;
+	border-left: solid var(--primary-color) var(--sp4); /* TODO: */
+	font-size: 1rem;
+	font-weight: bold;
+}
+
 .comment-form-author, .comment-form-email, .comment-form-url {
 	display: flex;
 	flex-direction: column;
@@ -985,8 +997,8 @@ a:hover, a:active {
 }
 
 .site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
-.post-navigation {
+.posts-navigation/*, .site-main
+.post-navigation*/ {
 	margin: 0 0 1.5em;
 	overflow: hidden;
 }
