@@ -299,6 +299,30 @@ input:focus, textarea:focus {
 	align-items: center;
 }
 
+/* widget footer, custon HTML - start */
+.social-container {
+	display: flex;
+	flex-direction: column;
+
+	margin-bottom: 2em;
+
+	align-items: center;
+}
+
+.social-container__networks {
+	margin: 0;
+	padding: 0;
+}
+
+.social-container__networks > li {
+	display: inline;
+}
+
+.social-container__networks > li + li {
+	margin-left: 1em;
+}
+/* widget footer, custon HTML - end */
+
 /* EXTRA for theme only - start */
 .site-title {
 	padding: 0;
@@ -433,6 +457,16 @@ border has to be on the bottem */
 	.widget-area {
 		width: 21rem;
 	}
+
+	/* widget footer, custon HTML -start */
+	.social-container {
+		flex-direction: row;
+	}
+	
+	.social-container__networks {
+		margin: 0 3em 0 0;
+	}
+	/* widget footer, custon HTML - end */
 }
 
 @media (min-width: 1044px) { /* ((34 + 2) + (21 + 1)) x 18 = 1044; with screen padding */
