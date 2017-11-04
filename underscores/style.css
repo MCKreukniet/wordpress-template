@@ -324,6 +324,10 @@ input:focus, textarea:focus {
 	margin: 0 0 2rem 0;
 }
 
+.entry-footer {
+	margin-top: 1rem;
+}
+
 .post + .post {
 	border-top: var(--border-thinnest);
 }
@@ -355,7 +359,10 @@ h2.entry-title {
 	list-style: none;
 }
 
-.comment-list > .comment:not(:last-child) > .comment-body,
+/* TODO: situations: list where the last item is a sub list,
+list with a sub list, but not as the list item.
+border has to be on the bottem */
+.comment-list > .comment > .comment-body,
 .children > .comment > .comment-body {
 	border-bottom: var(--border-thinnest);
 	margin-bottom: 1rem;
