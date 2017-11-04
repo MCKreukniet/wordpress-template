@@ -16,6 +16,12 @@
 	<footer id="colophon" class="site-footer  screen-x-padding">
 		<div class="site-info">
 		</div><!-- .site-info -->
+		<div id="footer-1">
+			<?php
+			if(is_active_sidebar('footer-1')) {
+				dynamic_sidebar('footer-1');
+			} ?>
+		</div>
 		<div>
 			&copy; <?php echo date("Y") . " "; bloginfo( 'name' ); ?>
 		</div>
