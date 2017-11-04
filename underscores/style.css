@@ -333,6 +333,10 @@ input:focus, textarea:focus {
 	padding-top: 1rem;
 }
 
+.page-header {
+	margin-bottom: 1rem;
+}
+
 h2.entry-title {
 	margin: 0;
 	line-height: 1.618rem;
