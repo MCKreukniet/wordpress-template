@@ -244,19 +244,14 @@ input:focus, textarea:focus {
 	display: flex;
 	flex-direction: column;
 	width: 13rem;
-	padding-top: 2em;
+	padding-top: 3em;
 	font-size: var(--font-size-smaller);
 }
 
-/* .widget = .aside-container - start */
-.widget {
-	padding-top: 1em;
-}
-
+/* .widget = .aside-container */
 .widget + .widget {
-	margin-top: 2em;
+	margin-top: 3em;
 }
-/* .widget = .aside-container - end */
 
 /* .widget-title = .aside-container__title */
 .widget-title {
