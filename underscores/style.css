@@ -91,6 +91,10 @@ h2 {
 	font-size: 1.618rem;
 }
 
+h3 {
+	font-size: 1rem;
+}
+
 a, a:visited, a:hover {
 	color: var(--secondary-color-accent-darkened2);
 	text-decoration: none;
@@ -345,13 +349,6 @@ h2.entry-title {
 .site-main .post-navigation {
 	margin-bottom: 3rem;
 	overflow: hidden;
-}
-
-.comment-reply-title {
-	padding-left: 1rem;
-	border-left: solid var(--primary-color) var(--sp4); /* TODO: */
-	font-size: 1rem;
-	font-weight: bold;
 }
 
 .comment-form-author, .comment-form-email, .comment-form-url {
