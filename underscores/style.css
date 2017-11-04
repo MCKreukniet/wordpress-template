@@ -227,8 +227,8 @@ input:focus, textarea:focus {
 	background-color: #fff;
 }
 
-/* .entry-header = .content-header */
-.entry-header {
+/* .entry-header, .page-header = .content-header */
+.entry-header, .page-header {
 	padding-top: 2rem;
 }
 
@@ -327,8 +327,9 @@ input:focus, textarea:focus {
 	border-top: var(--border-thinnest);
 }
 
-.post + .post > .entry-header {
-	padding-top: 2rem;
+.post + .post > .entry-header,
+.page-header + .post > .entry-header {
+	padding-top: 1rem;
 }
 
 h2.entry-title {
@@ -417,8 +418,8 @@ border has to be on the bottem */
 		flex-direction: row;
 	}
 
-	/* .entry-header = .content-header */
-	.entry-header {
+	/* .entry-header, .page-header = .content-header */
+	.entry-header, .page-header {
 		padding-top: 3rem;
 	}
 
@@ -444,8 +445,8 @@ border has to be on the bottem */
 		margin-right: 1rem;
 	}
 
-	/* .entry-header = .content-header */
-	.entry-header {
+	/* .entry-header, .page-header = .content-header */
+	.entry-header, .page-header {
 		padding-top: 5rem;
 	}
 }
