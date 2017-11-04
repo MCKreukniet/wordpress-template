@@ -227,7 +227,7 @@ input:focus, textarea:focus {
 	background-color: #fff;
 }
 
-/* .entry-header, .page-header = .content-header */
+/* .entry-header, .page-header = .content-header. But .page-header is for pages */
 .entry-header, .page-header {
 	padding-top: 2rem;
 }
@@ -424,7 +424,7 @@ border has to be on the bottem */
 		flex-direction: row;
 	}
 
-	/* .entry-header, .page-header = .content-header */
+	/* .entry-header, .page-header = .content-header. But .page-header is for pages */
 	.entry-header, .page-header {
 		padding-top: 3rem;
 	}
@@ -451,7 +451,7 @@ border has to be on the bottem */
 		margin-right: 1rem;
 	}
 
-	/* .entry-header, .page-header = .content-header */
+	/* .entry-header, .page-header = .content-header. But .page-header is for pages */
 	.entry-header, .page-header {
 		padding-top: 5rem;
 	}
