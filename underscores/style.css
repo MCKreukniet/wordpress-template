@@ -35,7 +35,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 --font-size-smallest: 0.777777777778rem; /* (14 x 100) / 18 */
 --font-size-smaller: 0.888888888889rem; /* (16 x 100) / 18 */
 
---border-thinnest: 1px solid var(--grey); /* TODO: 1px */
+--border-thinnest: var(--sp1) solid rgba(0, 0, 0, 0.12); /* https://material.io/ - Dividers */
 
 /* start */
 /* https://material.io/ - Using the material design color palette */
@@ -48,8 +48,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 --secondary-color-accent: #FF4081; /* Pink A200 */
 --secondary-color-accent-lightened: #FF80AB; /* Pink A100 */
 --secondary-color-accent-darkened2: #C51162; /* Pink A700 */
-
---grey: #9E9E9E; /* Grey 500 */
 /* end */
 
 /* start */
@@ -85,9 +83,6 @@ h1 {
 
 	font-size: 2rem;
 	line-height: 2rem;
-
-	padding-left: 1rem;
-	border-left: solid var(--secondary-color) var(--sp6);
 }
 
 h2 {
@@ -235,7 +230,7 @@ input:focus, textarea:focus {
 
 /* .entry-date, .published, .updated = .content-header__date */
 .entry-date, .published, .updated {
-	margin: 1rem 0 0 0;
+	margin: 0.618rem 0 0 0;
 	line-height: 1rem;
 	color: var(--dark-secondary-text);
 }
@@ -338,7 +333,7 @@ h2.entry-title {
 }
 
 .entry-meta {
-	margin-top: 1rem;
+	margin: 0.618rem 0 0 0;
 	line-height: 1rem;
 	color: var(--dark-secondary-text);
 }
