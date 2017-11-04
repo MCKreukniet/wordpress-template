@@ -351,6 +351,25 @@ h2.entry-title {
 	overflow: hidden;
 }
 
+.comment-list, .children {
+	list-style: none;
+}
+
+.comment-list > .comment:not(:last-child) > .comment-body,
+.children > .comment > .comment-body {
+	border-bottom: var(--border-thinnest);
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+}
+
+.reply, .comment-reply-link {
+	line-height: 1rem;
+}
+
+.comment-respond {
+	margin-top: 3rem;
+}
+
 .comment-form-author, .comment-form-email, .comment-form-url {
 	display: flex;
 	flex-direction: column;
