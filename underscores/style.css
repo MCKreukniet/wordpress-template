@@ -324,6 +324,7 @@ input:focus, textarea:focus {
 }
 
 .post + .post {
+	padding-top: 1rem;
 	border-top: var(--border-thinnest);
 }
 
@@ -333,6 +334,7 @@ input:focus, textarea:focus {
 }
 
 h2.entry-title {
+	margin: 0;
 	line-height: 1.618rem;
 }
 
