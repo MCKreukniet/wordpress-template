@@ -35,7 +35,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 --font-size-smallest: 0.777777777778rem; /* (14 x 100) / 18 */
 --font-size-smaller: 0.888888888889rem; /* (16 x 100) / 18 */
 
---border-thinnest: var(--sp1) solid rgba(0, 0, 0, 0.12); /* https://material.io/ - Dividers */
+--border-thinnest: 1px solid rgba(0, 0, 0, 0.12); /* https://material.io/ - Dividers */
 
 /* start */
 /* https://material.io/ - Using the material design color palette */
