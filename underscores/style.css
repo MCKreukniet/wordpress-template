@@ -101,7 +101,7 @@ a, a:visited, a:hover {
 }
 
 input, textarea {
-	border-radius: var(--sp2);
+	border-radius: 4px;
 	border: var(--border-thinnest);
 	color: inherit;
 }
@@ -411,7 +411,7 @@ border has to be on the bottem */
 /* https://material.io/ - Buttons */
 .submit {
 	border: none;
-	border-radius: var(--sp2);
+	border-radius: 2px;
 	background-color: var(--secondary-color-accent-darkened2);
 	color: var(--light-primary-text);
 	text-transform: uppercase;
