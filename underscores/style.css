@@ -239,6 +239,40 @@ input:focus, textarea:focus {
 	color: var(--dark-secondary-text);
 }
 
+/* start */
+.paper-card-link-wrapper, .paper-card-link-wrapper:hover, .paper-card-link-wrapper:visited {
+	color: inherit;
+}
+
+.paper-card-link-wrapper:hover {
+	cursor: pointer;
+}
+
+.paper-card {
+	width: 234px; /* 13 x 18 = 234 */
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+}
+
+.paper-card + .paper-card {
+	margin: 0 8px 8px 0;
+}
+
+/* .paper-card__rich-media { } */
+
+.paper-card-title-container {
+	padding: 24px 16px 24px 16px;
+}
+
+.paper-card-title-container__title-large {
+	font-size: 24px;
+}
+
+.paper-card-title-container__subtitle {
+	font-size: 14px;
+}
+/* end */
+
 /* .widget-area = .primary-content-aside */
 .widget-area {
 	display: flex;
