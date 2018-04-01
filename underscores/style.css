@@ -254,7 +254,7 @@ input:focus, textarea:focus {
 	border-radius: 2px;
 }
 
-.paper-card + .paper-card {
+.paper-card + .paper-card, .paper-card-link-wrapper + .paper-card-link-wrapper {
 	margin: 0 8px 8px 0;
 }
 
