@@ -261,7 +261,7 @@ input:focus, textarea:focus {
 .paper-card__rich-media {
 	object-fit: cover;
 	width: 234px;
-	height: 132px;
+	height: 132px; /* round(234 x 9 / 16) */
 }
 
 .paper-card-title-container {
